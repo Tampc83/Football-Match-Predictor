@@ -1,0 +1,9 @@
+streamlit
+requests
+python-dotenv
+langchain
+langchain-community
+langsmith
+langchain-ollama
+openai
+langchain-openai
