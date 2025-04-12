@@ -12,3 +12,27 @@ A Streamlit web app that predicts football match outcomes (winner, score, corner
 1. Clone the repo:
    ```bash
    git clone https://github.com/Antonio-Ngbesu/Football-Match-Predictor.git
+
+## Install dependencies:
+   pip install -r requirements.txt
+
+## Set up environment variables in .env:
+   FOOTBALL_API_KEY=your_key
+   OPENAI_API_KEY=your_key
+   LANGSMITH_API_KEY=your_key
+
+ ## Run the App:
+    streamlit run app.py
+
+ ## Usage
+  Select a league (e.g., PSL).
+
+  Choose a match (e.g., Mamelodi Sundowns vs Kaizer Chiefs) or enter teams manually.
+
+
+## Demo
+  Coming soon: Live app link!
+
+   
+
+   
