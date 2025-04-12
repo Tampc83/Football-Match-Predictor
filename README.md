@@ -1,6 +1,14 @@
-<<<<<<< HEAD
-# AI-Football-Prediction
-=======
-# AI-Match-Prediction
->>>>>>> 047c2e92a0be13dbb6a8b913854acd2742ee0974
-A sleek, AI-powered web app built with Streamlit, OpenAI's GPT-4o, and the api-football API to predict football match outcomes based on recent form and head-to-head stats.
+# AI Football Match Predictor
+
+A Streamlit web app that predicts football match outcomes (winner, score, corners, shots) for the 2024/25 season across multiple leagues, powered by api-football and GPT-4o.
+
+## Features
+- Predicts match winners, scores, corners, and shots.
+- Supports Premier League, La Liga, Serie A, EFL League One, and PSL (South Africa).
+- Uses mock fixtures and fallback team IDs for robust predictions.
+- Clean UI with team logos and match stats.
+
+## Installation
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/Antonio-Ngbesu/Football-Match-Predictor.git
