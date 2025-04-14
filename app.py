@@ -114,14 +114,6 @@ def render_form():
                 - Avg Corners: {team1_corners} ({team1}), {team2_corners} ({team2})
                 """
                 
-                print(f"Stats string: {stats}")  # Debug
-                # Display logos (placeholders, as mock fixtures lack logos)
-                col1, col2 = st.columns(2)
-                with col1:
-                    st.image("https://via.placeholder.com/100?text=" + team1.replace(" ", "+"), caption=team1, width=100)
-                with col2:
-                    st.image("https://via.placeholder.com/100?text=" + team2.replace(" ", "+"), caption=team2, width=100)
-                
                 # Generate prediction
                 prediction = predictor.predict_match(team1, team2, stats)
                 prediction_text = prediction.content if hasattr(prediction, 'content') else str(prediction)
